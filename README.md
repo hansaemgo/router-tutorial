@@ -14,3 +14,5 @@
     - <Route path="주소규칙" component={보여주고싶은 컴포넌트}>
 4. path="/" 초기 경로가 같아서 Home 과 소개가 겹치는 현상 exact라는 props를 true로 설정
 5. HashRouter (해시태그 붙음), MemoryRouter(주소 안바뀜)
+
+### 2. 파라미터와 쿼리

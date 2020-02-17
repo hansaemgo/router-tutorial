@@ -3,7 +3,6 @@ import { Route, Link } from 'react-router-dom';
 import About from './About';
 import Home from './Home';
 import Profile from './Profile';
-import qs from 'qs';
 
 function App() {
 	return (

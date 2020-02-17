@@ -16,3 +16,12 @@
 5. HashRouter (해시태그 붙음), MemoryRouter(주소 안바뀜)
 
 ### 2. 파라미터와 쿼리
+
+1. 페이지 주소를 정의할때 파라미터와 쿼리로 나눠진다.(주소를 통해서 동적인 값 가져올때)
+
+    - URL 파라미터 : ex) /profiles/velopert -> 특정 id나 이름을 가지고 조회할 때 사용
+    - 쿼리 : ex) /filter?type=book&solt_by=date -> 필요한 옵션을 추가해 조회할때 사용
+
+2. Query
+    - 라우트 컴포넌트에게 props location 객체에 있는 search 값에서 읽어옴 (파싱)
+    - qs 라이브러리 사용

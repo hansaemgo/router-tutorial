@@ -11,4 +11,4 @@
 1. 라우터 관련 라이브러리 설치 ( yarn add react-rounter-dom )
 2. <BrowserRouter> 컴포넌트 적용
 3. App.js 에 Route 특정 주소와 컴포넌트 연결하기
-    1. <Route path="주소규칙" component={보여주고싶은 컴포넌트}>
+    - <Route path="주소규칙" component={보여주고싶은 컴포넌트}>

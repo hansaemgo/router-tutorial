@@ -29,3 +29,16 @@
 ### 3. 서브라우트 만들기
 
 -   라우트 안에 들어있는 또다른 라우트
+
+### 4. 라우터 부가기능
+
+1. history객체 : object 형태로 ( action, block, createHref, go, goBack, goForward, listen, location, push, replace)
+    - push & replace : 현재 방문한 페이지의 기록을 남기느냐 안남기느냐
+    - block : 페이지 이탈방지
+2. withRouter : 라우터 컴포넌트가 아닌 곳에서 match, location, history 사용
+    - JSON.stringify : JSON 파일로 이루어진 객체를 문자열로 변환
+    - (null, 2) : 위의 과정(JSON.stringify)에서 들여쓰기
+3. Switch : 여러 Route 들을 감싸서 그 중 규칙이 일치하는 라우트 단 하나만을 렌더링시켜줌.
+4. NavLink :현재 주소와 일치한다면 스타일 바꾸기
+5. Prompt : 이탈방지
+6. Redirect: 페이지 리디렉트 하는 컴포넌트
